@@ -16,9 +16,9 @@
           <a href="?id=<?php echo $row['id'];  ?>" class="menu-link ">
             <span class="menu-text text-center text-hover-warning">
             <?php if($lan=='mon_name'){ ?>
-                <?php print_r($data['title']); ?>
+                <?php print_r($row['title']); ?>
             <?php }else{ ?>
-                <?php print_r($data['title_en']); ?>
+                <?php print_r($row['title_en']); ?>
             <?php } ?></span>
             <i class="menu-arrow"></i>
           </a>
